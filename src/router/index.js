@@ -11,9 +11,19 @@ const routes = [
     component: Landing
   },
   {
-    path:'/servicios',
-    name:'servicios',
-    component: () => import('../views/Servicios.vue')
+    path:'/auth',
+    name:'auth',
+    component: () => import('../views/Auth.vue')
+  },
+  {
+    path:'/login',
+    name:'login',
+    component: () => import('../views/Login.vue')
+  },
+  {
+    path:'/reservas',
+    name:'Reservas',
+    component: () => import('../views/Reservas.vue')
   }
   // {
   //   path: '/about',

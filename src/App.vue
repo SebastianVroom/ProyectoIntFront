@@ -51,5 +51,8 @@ export default {
   data: () => ({
     //
   }),
+    created(){
+        this.$store.commit('userdata/cargarStorage')
+    }
 };
 </script>
